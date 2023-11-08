@@ -25,7 +25,7 @@ El proceso ETL (Extract, Transform, Load) es fundamental en la gestión de datos
 * Carga (Load): En la etapa final, los datos transformados se cargaron a datasets limpios, organizados y almacenados de manera que sean accesibles para su posterior análisis, consultas y generación de informes.
 
 # EDA
-Se basó en el análisis de mejora y expansión de la cobertura de red en Argentina, con una ventana temporal de 5 años.
+Se basó en el análisis de mejora y expansión de la cobertura de red en Argentina, con una ventana temporal de 4 años.
 
 Si bien se hizo un análisis de la mayoría de los datasets, no todos fueron involucrados en la elaboración del dashborad. Este se debe a que se concluyó que no era información relevante en persecución del objetivo general o que bien había mucho más que analizar pero resulto imposible por la falta de información.
 
