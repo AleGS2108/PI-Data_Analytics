@@ -1,4 +1,6 @@
-# PI-Data_Analytics
+# PI-Data_Analytics: Telecomunicaciones
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/caratula.jpg)
+
 Lab N°2: Data Analytics
 
 La conectividad a Internet se ha convertido en un pilar fundamental de la sociedad moderna, transformando la forma en que vivimos, trabajamos, aprendemos y nos comunicamos. En un mundo cada vez más interconectado, las telecomunicaciones desempeñan un papel esencial en la habilitación de esta revolución digital. La mejora constante del alcance y la calidad de la conectividad a Internet es crucial para satisfacer las crecientes demandas de una sociedad cada vez más dependiente de la tecnología.
@@ -11,7 +13,7 @@ En este repositorio se encuentran almacenadas cuatro carpetas y tres archivos:
 * En la carpeta **Datasets limpios** se encuentra la data limpia después de realizado el proceso de ETL.
 * En la carpeta **Datasets en bruto** se encuentra la data en bruto obtenida de la página de ENACOM.
 * En la carpeta **Datasets KPI** se encuentra la data transformada después de realizado el proceso de EDA, la cual se ha utilizado para la realización del dashboard.
-* En la carpeta **src** se encuentran los recursos (imágenes).
+* En la carpeta **resources** se encuentran los recursos (imágenes).
 * En el archivo **ETL** se encuentra la documentación y el paso a paso del ETL.
 * En el archivo **EDA** se encuentra la documentación y el paso a paso del EDA.
 * En el archivo **Dashboard** se encuentra la presentación de Power Bi correspondiente al proyecto, la cual muestra el estado actual de los KPI´s.
@@ -32,9 +34,9 @@ Ya habiendo establecido el objetivo general, el primer KPI planteado se basó en
 
 Así se estableció como indicador que para el año 2023, se espera un incremento del 1.5% para todas las provincias ya que la media del crecimiento es de 5.25% en 4 años (es decir 1.3% anual)
 
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/porcentaje_conexiones_menores_1%2C5.jpg)
 
-
-
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/crecimeinto_porcentual_4_años.jpg)
 
 Siguiendo con el análisis se decidió analizar la velocidad media de bajada de las conexiones. Es la FCC (Federal Communications Commission) quien ha determinado que la velocidad de bajada a partir de la cual se considera la Banda Ancha y, por lo tanto, una conexión a internet de alta calidad es a partir de 25Mbps, por lo que se fijó la vmb en 30Mbps para salvaguardar cualquier falla de cobertura, ya que el dataframe provee un dato promedio de velocidad de bajada.
 
@@ -42,13 +44,13 @@ Se analizó la vmb de cada provincia para cada año para verificar si se cumplí
 
 Se observó que todos los años iba incrementando, pero aún así no había alcanzado a abarcarse todas las provincias. Es por ello que se planteo como indicador que para el año 2023, el incrementó de provincias con acceso a una red de calidad de Internet debía aumentar en un mínimo de 2 provincias. (La media de crecimiento durante los 4 años fue de aproximadamente 20%, por lo que se espera un crecimiento del 7.5% para el próximo año).
 
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/distribución_vmb_anual.jpg)
 
-
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/crecimiento_porcentual_provincias_mayor_30mbps.jpg)
 
 Por último, decidió analizarse la cantidad de reclamos recibidos por delegación, ésto para saber donde deben presentarse medidas de mejoras del personal. Sin embargo la ventana temporal cambió ya que se cuentan con datos a partir del mes 1 del año 2023 hasta el mes 9 del mismo año. Y habiendo analizado la cantidad de reclamos recibidas por delegación, se estableció como objetivo disminuir en un 20% en el lapso del último trimestre del año.
 
-
-
+![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/cantidad_reclamos_delegación.jpg)
 
 #  Herramientas utilizadas
 * Python
