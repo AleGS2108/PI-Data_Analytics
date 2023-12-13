@@ -1,4 +1,4 @@
-# PI-Data_Analytics: Telecomunicaciones
+# Telecomunicaciones en Argentina
 ![Imagen](https://github.com/AleGS2108/PI-Data_Analytics/blob/main/resources/caratula.jpg)
 
 Lab N°2: Data Analytics
